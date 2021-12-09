@@ -19,6 +19,8 @@ Neprijavljen uporabnik lahko spletno stran uporablja za reševanje zabavnega kvi
 
 ![Zbirka](https://github.com/nc4279/ZbirkaKnjig/blob/main/zbirka.png?raw=true)
 
-## demo
+## Kratek demo
+
+Posnela sem kratek demo, da si lažje predstavljate uporabo spletne aplikacije.
 
 [![Watch the video](https://github.com/nc4279/ZbirkaKnjig/blob/main/demo.webm)]
