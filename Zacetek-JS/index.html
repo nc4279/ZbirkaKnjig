@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Moja Zbirka</title>
+</head>
+<body>
+    <header>
+        <h1>Moja zbirka knjig</h1>
+    </header>
+
+    <div class="note">
+        <p id="stKnjig">Število knjig</p>
+        <p id="najKnjiga">Najbolje ocenjena knjiga</p>
+        <p id="dragaKnjiga">Najdražja knjiga</p>
+    </div>
+    <div class="uredi">
+        <button id="poAvtorju"> Uredi po avtorju</button><br>
+        <button id="poNaslovu">Uredi po naslovu</button><br>
+        <button id="poCeni">Uredi po ceni</button><br>
+        <button id="poOceni">Uredi po oceni</button><br>
+    </div>
+    
+    <div class="zbirka">
+        
+    </div>
+   
+    <div> 
+        <fieldset>
+        <legend>Dodaj novo knjigo</legend>
+        <label for="naslov">Naslov</label><br>
+        <input type="text" id="naslov" name="naslov"><br>
+        <label for="avtor">Avtor</label><br>
+        <input type="text" id="avtor" name="avtor"><br>
+        <label for="datum_izdaje">Datum izdaje</label><br>
+        <input type="date" id="datum_izdaje" name="datum_izdaje" ><br>
+        <label for="cena">Cena</label><br>
+        <input type="number" id="cena" min="1" step="any" name="cena"><br>
+        <label for="ocena">Ocena</label><br>
+        <input type="number"  id="ocena" min="1" max="5"> ★<br>
+        <label for="mnenje">Mnenje</label><br>
+        <textarea rows="4" cols="50" id="mnenje" name="mnenje" placeholder="Napiši mnenje"></textarea><br>
+        <button  id="dodaj">Dodaj</button>
+        </fieldset>
+    </div>
+    <article>
+        <h2>Zakaj brati?</h2>
+        <p>Branje spodbuja mišljenje</p>
+        <p>Branje zmanjšuje stres</p>
+        <p>Branje prinaša znanje</p>
+        <p>Branje širi besedni zaklad </p>
+        <p>Branje izboljšuje spomin</p>
+        <p>Branje krepi sposobnost analitičnega mišljenja</p>
+        <p>Branje izboljšuje osredotočenost in koncentracijo</p>
+        <p>Branje izboljšuje spretnost pisanja </p>
+        <p>Branje nas umiri</p>
+        <p>Branje je brezplačna zabava</p>
+        <img src="books.png" alt="knjige">
+    </article>
+    <aside>
+        <a href="help.html">Pomoč pri nalogi</a>
+    </aside>
+    <footer>
+        <p>Vaša zbirka knjig na enem mestu</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>   
+    <script src="script.js"></script>
+
+</body>
+</html>

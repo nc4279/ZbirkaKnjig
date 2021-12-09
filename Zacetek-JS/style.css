@@ -1,0 +1,262 @@
+html {
+    font-family: Verdana, sans-serif;
+    font-size: 16px; 
+    background-color: #E5D3B3;
+}
+
+body {
+  background-color:#f8f4ec;
+  border-radius: 20px;
+}
+
+header {
+    grid-area: header;
+}
+
+.zbirka {
+    grid-area: zbirka;
+}
+article {
+  grid-area: article;
+  text-align: center;
+  
+}
+.note {
+  grid-area: note;
+  height: fit-content;
+  text-align: center;
+}
+
+.uredi {
+  grid-area: uredi;
+  text-align: left;
+  
+  text-align: center;
+  height: fit-content;
+}
+
+.knjiga {  
+  border: 5px ridge #B99976;
+  margin-bottom: 1em;
+  
+  
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  border-top: 5px groove #987554;
+  font-family: Garamond, serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+footer p {
+  margin: 15px;
+}
+
+form {
+  grid-area: form;
+}
+
+aside {
+  grid-area: aside;
+  
+  height: fit-content;
+  text-align: center;
+
+}
+
+aside a {
+  cursor: pointer;
+  color: #664229;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+    font-family: Garamond, serif;
+    border-bottom: 5px groove #987554;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size:35px ;
+}
+
+fieldset {
+  border: 5px groove #D2B48C;
+ 
+  
+}
+legend {
+  font-weight: bold;
+  font-size: 16px;
+  color:#664229;
+}
+
+#dodaj {
+  display:inline-block;
+  padding:0.3em 1.2em;
+  border-radius:2em;
+  font-weight:700;
+  color:#FFFFFF;
+  background-color:#987554;
+  text-align:center;
+  margin-left: 5%;
+}
+#dodaj:hover{
+  background-color:#664229;
+}
+
+img {
+  max-width: 60%;
+  height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#poCeni, #poAvtorju, #poOceni, #poNaslovu {
+    text-transform: uppercase;
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color:#664229;
+    font-weight: bold;
+    cursor:pointer;
+    margin: 0.25em;
+    font-size: 16px;
+
+}
+
+#stKnjig, #najKnjiga,#dragaKnjiga
+{
+  margin-left: 0.5em;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Verdana, sans-serif;
+}
+
+  
+@media only screen and (min-width: 600px){
+  body {
+
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-areas: 'header header'
+    'note zbirka'
+    'uredi zbirka'
+    'aside form'
+    'article article'
+    'footer footer';
+    background-color:#f8f4ec;
+    border-radius: 20px;
+  }
+
+  .zbirka {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, max-content);
+    column-gap: 15px;
+
+  }
+  img {
+    width: 300px;
+  }
+
+  aside,.uredi, .note{
+    margin-right: 1em;
+    margin-left: 0.25em;
+    border-left: 5px groove #D2B48C;
+  }
+  
+  h1{
+    font-size: 45px;
+  }
+ footer{
+   font-size: 25px;
+ }
+ fieldset {
+  border: 5px groove #D2B48C;
+}
+legend {
+  font-weight: bold;
+  font-size: 18px;
+  color:#664229;
+}
+input, textarea {
+  margin-bottom: 0.5em;
+ }
+ fieldset{
+   margin-bottom: 1em;
+   margin-top: 1em;
+ }
+}
+  
+  
+@media screen and (min-width: 992px){
+  body {
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: 'header header header'
+    'note zbirka article'
+    'uredi zbirka article'
+    'aside form .'
+    'footer footer footer';
+    background-color:#f8f4ec;
+    border-radius: 20px;
+  }
+
+  html {
+    margin-inline: 6%;
+  }
+  .zbirka {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, max-content);
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+ aside,.uredi, .note, fieldset {
+  margin-right: 1em;
+  margin-bottom: 1em;
+
+ }
+ article {
+  margin-inline: 1em;
+  border-right: 5px groove #D2B48C;
+ }
+ aside,.uredi, .note{
+   margin-left: 1em;
+   border-left: 5px groove #D2B48C;
+ }
+
+ aside,.uredi, fieldset{
+   margin-top: 1em;
+ }
+
+
+ input, textarea {
+  margin-bottom: 0.5em;
+ }
+
+ h1{
+  font-size: 60px;
+ }
+ footer {
+  font-size: 30px;
+ }
+
+fieldset {
+  border: 5px groove #D2B48C;
+}
+legend {
+  font-weight: bold;
+  font-size: 18px;
+  color:#664229;
+}
+
+}
+
+  
