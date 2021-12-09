@@ -18,3 +18,7 @@ Neprijavljen uporabnik lahko spletno stran uporablja za reševanje zabavnega kvi
 ![Kviz](https://github.com/nc4279/ZbirkaKnjig/blob/main/Kviz.png?raw=true)
 
 ![Zbirka](https://github.com/nc4279/ZbirkaKnjig/blob/main/zbirka.png?raw=true)
+
+## demo
+
+[![Watch the video](https://github.com/nc4279/ZbirkaKnjig/blob/main/demo.webm)]
