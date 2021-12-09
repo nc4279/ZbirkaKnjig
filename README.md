@@ -1,4 +1,4 @@
-# ZbirkaKnjig
+# Zbirka knjig
 
 Spletna aplikacija deluje na localhostu preko XAMPP. Povezana je s podatkovno bazo (sql), ki vsebuje 4 tabele. 
 ![Podatkovna baza](https://github.com/nc4279/ZbirkaKnjig/blob/main/baza.png?raw=true)
