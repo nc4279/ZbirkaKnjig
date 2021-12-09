@@ -1,5 +1,7 @@
 # Zbirka knjig
 
+V mapi Začetek-JS je okrnjen začetek spletne aplikacije, ki je vodil do zaključenega izdelka (mapa code). V nje je delujoča koda, saj sem namesto podatkovne baze uporabila localstorage in je napisana v JavaScriptu. 
+
 Spletna aplikacija deluje na localhostu preko XAMPP. Povezana je s podatkovno bazo (sql), ki vsebuje 4 tabele. 
 ![Podatkovna baza](https://github.com/nc4279/ZbirkaKnjig/blob/main/baza.png?raw=true)
 
